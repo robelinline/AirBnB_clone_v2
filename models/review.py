@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Defines the Review class"""
+"""the defenation of the Review class"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Represent a review
+    """the total Represention a review
 
     Attributes:
         place_id (str): place id
