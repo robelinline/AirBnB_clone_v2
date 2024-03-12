@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines testing of units for models/city.py.
+"""Defining of the testing of units for models/city.py.
 
 Unittest classes:
     TestCity_instantiation
@@ -15,7 +15,7 @@ from models.city import City
 
 
 class TestCity_instantiation(unittest.TestCase):
-    """testing instantiation of the City class."""
+    """testing for instantiation of the City class."""
 
     def test_no_args_instantiates(self):
         self.assertEqual(City, type(City()))
